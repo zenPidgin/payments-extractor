@@ -1,0 +1,56 @@
+
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Payments</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+<link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+
+<main>
+  <div class="px-4 py-5 my-5 text-center">
+  <img class="d-block mx-auto mb-4" src="img/enium.png" alt="Enium Logo">
+  <h1 class="display-5 fw-bold">Payments Extractor</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">Quickly extract payments from loan products by pasting in a JSON object into the textarea below.</p>
+  </div>
+</div>
+    <div class="d-flex gap-5 justify-content-center">
+      <div class="list-group mx-0 w-auto">
+        <form action="/" method="post">
+          <h2>JSON Object:</h2>
+          <textarea id="objectInput" name="objectInput" rows="12" cols="100"></textarea><br />
+
+
+        <label class="list-group-item d-flex gap-2">
+          <input class="form-check-input flex-shrink-0"  type="radio" id="minpay" name="typepayment" value="min" required/>
+          <span>
+            Min Pay
+          </span>
+        </label>
+        <label class="list-group-item d-flex gap-2">
+          <input class="form-check-input flex-shrink-0" type="radio" id="levelpay" name="typepayment" value="lvl" />
+          <span>
+            Level Pay
+          </span>
+        </label>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="submit" class="btn btn-primary btn-lg px-4 gap-3">Get Payments</button>
+            <button type="reset" class="btn btn-outline-secondary btn-lg px-4">Clear Form</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="list-group mx-0 w-auto">
+
+      </div>
+    </div>
+</main>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
