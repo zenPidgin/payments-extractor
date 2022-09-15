@@ -5,33 +5,16 @@
             "termInMonths": 300,
             "statedAPR": 7.24,
             "averageAPR": 7.24,
-            "financeCharge": 35883.84,
-            "totalPayments": 65883.84,
-            "totalPaymentsInPeriods": 65883.84,
             "monthlyPayment": 153.92,
             "minimumMonthlyPayment": 0,
             "paymentPeriods": [
                 {
                     "monthlyPayment": 153.92,
                     "apr": 7.24,
-                    "interestAPR": 7.24,
-                    "periodIndex": 1,
-                    "principalType": 1,
-                    "interestType": 1,
-                    "months": 12,
-                    "remainingBalance": 30335.92,
-                    "remainingBalancePlusPayment": 30489.84
                 },
                 {
                     "monthlyPayment": 222.35,
                     "apr": 7.24,
-                    "interestAPR": 7.24,
-                    "periodIndex": 2,
-                    "principalType": 1,
-                    "interestType": 1,
-                    "months": 288,
-                    "remainingBalance": 0,
-                    "remainingBalancePlusPayment": 222.35
                 }
             ],
             "simplePaymentPeriods": [
@@ -39,23 +22,11 @@
                     "monthlyPayment": 153.92,
                     "apr": 7.24,
                     "interestAPR": 7.24,
-                    "periodIndex": 1,
-                    "principalType": 1,
-                    "interestType": 1,
-                    "months": 12,
-                    "remainingBalance": 30335.92,
-                    "remainingBalancePlusPayment": 30489.84
                 },
                 {
                     "monthlyPayment": 222.35,
                     "apr": 7.24,
                     "interestAPR": 7.24,
-                    "periodIndex": 2,
-                    "principalType": 1,
-                    "interestType": 1,
-                    "months": 288,
-                    "remainingBalance": 0,
-                    "remainingBalancePlusPayment": 222.35
                 }
             ],
             "minimumPaymentPeriods": [],
@@ -65,23 +36,11 @@
                     "monthlyPayment": 150.6,
                     "apr": 6.99,
                     "interestAPR": 6.99,
-                    "periodIndex": 1,
-                    "principalType": 1,
-                    "interestType": 1,
-                    "months": 12,
-                    "remainingBalance": 30299.3,
-                    "remainingBalancePlusPayment": 30449.9
                 },
                 {
                     "monthlyPayment": 217.28,
                     "apr": 6.99,
                     "interestAPR": 6.99,
-                    "periodIndex": 2,
-                    "principalType": 1,
-                    "interestType": 1,
-                    "months": 288,
-                    "remainingBalance": 0,
-                    "remainingBalancePlusPayment": 217.28
                 }
             ],
             "discountedInterestRateMinimumPaymentPeriods": [],
@@ -90,27 +49,14 @@
                 "apr": 7.24,
                 "interestAPR": 7.24,
                 "periodIndex": 1,
-                "principalType": 1,
-                "interestType": 1,
-                "months": 12,
-                "remainingBalance": 30335.92,
-                "remainingBalancePlusPayment": 30489.84
             },
             "goToPeriod": {
                 "monthlyPayment": 222.35,
                 "apr": 7.24,
                 "interestAPR": 7.24,
-                "periodIndex": 2,
-                "principalType": 1,
-                "interestType": 1,
-                "months": 288,
-                "remainingBalance": 0,
-                "remainingBalancePlusPayment": 222.35
             },
             "introductoryAPR": 7.24,
             "goToAPR": 7.24,
-            "introductoryPeriodInMonths": 12,
-            "repaymentTerm": 300
         }
     ]
 }
